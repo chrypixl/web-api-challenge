@@ -8,53 +8,68 @@
     <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-    <section>
+    <div class="container">
 
-        <header>
-            <h1>My First Blog</h1>
-        </header>
-    </section>
-
-    <main>
         <section>
-            <div class="circle">
-                <h2>Welcome to my blog!</h2>
-
-            </div>
+            
+            <header>
+                <h1>My First Blog</h1>
+                <div class="row toggle">
+                    <div class="col">
+                        <span style='font-size: 20px;'>&#127772;</span>
+                    </div>
+                    <label class="switch col">
+                        <input type="checkbox" id="theme-switcher">
+                        <span class="slider round"></span>
+                    </label>
+                    <div class="col">
+                        <span style='font-size: 20px;'>&#127774;</span>
+                    </div>
+                </div>
+            </header>
         </section>
-
-        <section>
-            <form>
-                <h3>What's On Your Mind?</h3>
-                <p>
-                    <label for="username">Username:</label>
-                    <input class="text-input" id="username" type="text" placeholder=""/>
-                </p>
-
-                <p>
-                    <label for="title">Title:</label>
-                    <input class="text-input" id="title" type="text" placeholder=""/>
-                </p>
-
-                <p class="p-content">
-                    <label for="content">Content:</label>
-                    <input class="text-input" id="input" type="text" placeholder="" rows="10" cols="100" wrap="hard">
+        
+        <main>
+            <section>
+                <div class="circle">
+                    <h2>Welcome to my blog!</h2>                    
+                </div>
+            </section>
+            
+            <section>
+                <form>
+                    <h3>What's On Your Mind?</h3>
+                    <p>
+                        <label for="username">Username:</label>
+                        <input class="text-input" id="username" type="text" placeholder=""/>
+                    </p>
+                    
+                    <p>
+                        <label for="title">Title:</label>
+                        <input class="text-input" id="title" type="text" placeholder=""/>
+                    </p>
+                    
+                    <p class="p-content">
+                        <label for="content">Content:</label>
+                        <input class="text-input" id="input" type="text" placeholder="" rows="10" cols="100" wrap="hard">
                         
                     </textarea>
                 </p>
-
+                
                 <p>
                     <button>Submit</button>
                 </p>
             </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>&#10024Thanks for putting up with me.&#10024
-            <a href="https://emoji.gg/emoji/1650_fingerguns"><img src="https://cdn3.emoji.gg/emojis/1650_fingerguns.png" width="32px" height="32px" alt="fingerguns"></a>
-        </p>
-    </footer>
+            </section>
+        </main>
+    
+        <footer>
+            <p>
+                &#10024Thanks for putting up with me.&#10024
+            </p>
+                <a href="https://emoji.gg/emoji/1650_fingerguns"><img src="https://cdn3.emoji.gg/emojis/1650_fingerguns.png" width="32px" height="32px" alt="fingerguns"></a>
+        </footer>
+    </div>
     <script src="assets/script.js"></script>
 </body>
 </html>
