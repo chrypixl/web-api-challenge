@@ -1,28 +1,29 @@
-const username = document.querySelector('#username');
-const title = document.querySelector('#title');
-const input = document.querySelector('#input');
-const submit = document.querySelector('#submit');
 
 
 submit.addEventListener('click', function (event) {
   event.preventDefault();
-  if (username === '') {
+  
+  const username = document.getElementById('username').value.trim();
+  const title = document.getElementById('title').value.trim();
+  const input = document.getElementById('input').value.trim();
+  const submit = document.querySelector('submit');
+  
+  if (username.trim() === '') {
     alert('Please provide a user name.');
-  } else if (title === '') {
+  } else if (title.trim() === '') {
     alert('Please provide a title.');
-  } else if (input === '') {
+  } else if (input.trim() === '') {
     alert('Please write an entry.');
   } else {
 
     const blogPost = {
-      username: username.value.trim(),
-      title: title.value.trim(),
-      input: input.value.trim(),
+      username: username,
+      title: title,
+      input: input
     };
 
     localStorage.setItem('blogPost', JSON.stringify(blogPost));
    
-
-    window.location.href='file:///C:/Users/chris/Documents/university/web-api-challenge/blog.html';
+   window.location.href='file:///C:/Users/chris/Documents/university/web-api-challenge/blog.html';
   }
 })
