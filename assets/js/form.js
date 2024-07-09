@@ -34,6 +34,8 @@ submit.addEventListener('click', function (event) {
     };
 
     localStorage.setItem('blogPost', JSON.stringify(blogPost));
-    renderMessage();
+   
+
+    window.location.href='file:///C:/Users/chris/Documents/university/web-api-challenge/blog.html';
   }
 })
