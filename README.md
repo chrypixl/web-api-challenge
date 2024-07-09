@@ -24,8 +24,8 @@ WHEN I submit the form,
 THEN blog post data is stored to localStorage. ✔️
 WHEN the form submits,
 THEN I am redirected to the posts page. ✔️
-==WHEN I enter try to submit a form without a username, title, or content,==
-==THEN I am presented with a message that prompts me to complete the form.==
+WHEN I enter try to submit a form without a username, title, or content,
+THEN I am presented with a message that prompts me to complete the form. ✔️
 WHEN I view the posts page,
 THEN I am presented with a header, with a light mode/dark mode toggle, and a "Back" button. ✔️
 WHEN I click the light mode/dark mode toggle,
@@ -41,6 +41,9 @@ THEN I am redirected back to the landing page where I can input more blog entrie
 WHEN I view the footer,
 THEN I am presented with a link to the developer's portfolio. ✔️
 ```
+
+Github Link: https://github.com/chrypixl/web-api-challenge
+Webpage link: https://chrypixl.github.io/web-api-challenge/
 
 ## Getting Started
 
@@ -65,7 +68,7 @@ my-blog
 
 ## Notes
 
-
+Currently struggling with functionality of the unchecked acceptance criteria. Challenge submitted ahead of deadline but will continue to work on it until the repo is graded.
 
 
 ## Credits
