@@ -3,11 +3,11 @@ const blogPost = JSON.parse(localStorage.getItem('blogPost'));
 const div = document.createElement('div');
 
 if (blogPost) {
-    const { username, title, content } = blogPost;
+    const { username, title, input } = blogPost;
     div.innerHTML = `
         <h2>${title}</h2>
         <p><strong>Author:</strong> ${username}</p>
-        <p>${content}</p>
+        <p>${input}</p>
     `;
     document.getElementById("dataContainer").appendChild(div);
 }
