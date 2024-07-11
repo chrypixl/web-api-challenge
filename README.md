@@ -32,10 +32,10 @@ WHEN I click the light mode/dark mode toggle,
 THEN the page content's styles update to reflect the selection. ✔️
 WHEN I click the "Back" button,
 THEN I am redirected back to the landing page where I can input more blog entries. ✔️
-==WHEN I view the main content,==
-==THEN I am presented with a list of blog posts that are pulled from localStorage.==
-==WHEN I view localStorage,==
-==THEN I am presented with a JSON array of blog post objects, each including the post author's username, title of the post, and post's content.==
+WHEN I view the main content,
+THEN I am presented with a list of blog posts that are pulled from localStorage. ✔️
+WHEN I view localStorage,
+THEN I am presented with a JSON array of blog post objects, each including the post author's username, title of the post, and post's content. ✔️
 WHEN I take a closer look at a single blog entry in the list,
 THEN I can see the title, the content, and the author of the post. ✔️
 WHEN I view the footer,
@@ -64,11 +64,6 @@ my-blog
 ├── blog.html
 └── README.md
 ```
-
-
-## Notes
-
-Currently struggling with functionality of the unchecked acceptance criteria. Challenge submitted ahead of deadline but will continue to work on it until the repo is graded.
 
 
 ## Credits

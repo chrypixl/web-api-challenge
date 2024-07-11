@@ -34,6 +34,15 @@ section {
     border: 2px, solid, black;
 }
 
+.form-box {
+    width: 35rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 p {
     display: flex;
     flex-direction: column;
@@ -46,13 +55,13 @@ h2 {
     justify-content: space-between;
 }
 
-#content.input {
+#content.content {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
 }
 
-input#input.text-input {
+input#content.text-input {
     min-width: 500px;
     min-height: 200px;
 }
