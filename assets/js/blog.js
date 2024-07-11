@@ -23,9 +23,3 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-/*
-1. Retrieve items from local storage.
-2. Create a new paragraph element.
-3. Append the retrieved items to the new paragraph element.
-4. Append the new paragraph element to the desired location.
-*/
