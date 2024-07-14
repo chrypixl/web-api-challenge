@@ -65,6 +65,10 @@ my-blog
 └── README.md
 ```
 
+## Notes
+
+![image](assets/images/Screenshot%202024-07-14%20115819.png)
+
 
 ## Credits
 
